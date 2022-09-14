@@ -6,6 +6,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+*::selection{
+    background: #edb026;
+    color: white;
+}
+
 a{
     color: none;
     text-decoration: none;
@@ -238,6 +243,7 @@ nav{
     border: none;
     border-radius: 10px;
     border-bottom: 3px solid #edb026;
+    resize: none;
 }
 .form button{
 	background: #edb026;
