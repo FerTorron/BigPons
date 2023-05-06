@@ -312,3 +312,14 @@ footer{
 	height: 1px;
 	background: #A7A7A7;
 }
+
+@media screen and (max-width: 900px) {
+    .carousel-item{
+        height: 80vh;
+    }
+
+    .container-video .video-yt{
+        width: 90%;
+        height: 300px;
+    }
+}
